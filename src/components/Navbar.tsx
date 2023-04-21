@@ -11,9 +11,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between px-4 py-2 sm:px-8 sm:py-4 border-b-[1px] shadow-md">
+    <nav className="flex justify-between px-4 py-2 sm:px-8 sm:py-2 border-b-[1px] shadow-md">
       <div className="">
-        <img src={Logo} alt="logo" className="w-16 sm:w-20" />
+        <img src={Logo} alt="logo" className="w-16 cursor-pointer" />
       </div>
 
       <div className="flex items-center sm:hidden">
@@ -51,19 +51,19 @@ const Navbar = () => {
       </div>
       <div className="hidden sm:flex items-center">
         <ul className="flex gap-6 text-xl">
-          <a href="#">
+          <a href="#" className="hover:text-teal-500 hover:underline">
             <li>Home</li>
           </a>
-          <a href="#">
+          <a href="#" className="hover:text-teal-500 hover:underline">
             <li>About</li>
           </a>
-          <a href="#">
+          <a href="#" className="hover:text-teal-500 hover:underline">
             <li>Contact</li>
           </a>
-          <a href="#">
+          <a href="#" className="hover:text-teal-500 hover:underline">
             <li>Donate</li>
           </a>
-          <a href="#">
+          <a href="#" className="hover:text-teal-500 hover:underline">
             <li>Contribute</li>
           </a>
         </ul>
